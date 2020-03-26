@@ -40,7 +40,7 @@ export class Model<T extends HasId> {
   //   return this.attributes.get;
   // }
 
-  // 2nd Way of adding getters
+  // 2nd Way of adding getters. Limited use
   on = this.events.on;
   trigger = this.events.trigger;
   get = this.attributes.get;
